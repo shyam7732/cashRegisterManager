@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Poppins:wght@200&family=Space+Grotesk:wght@300&family=Yuji+Hentaigana+Akari&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top {
+  margin-bottom: 4rem;
+}
+h1 {
+  margin: 1rem 0;
+}
+
+.box {
+  width: 28rem;
+  background: #5353e6;
+  border-radius: 0.6rem;
+  box-shadow: 0px 0px 6px 2px #5353e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+h3,
+h4 {
+  text-align: center;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+input {
+  width: 18rem;
+  height: 2rem;
+  border-radius: 5px;
+  outline: none;
+  padding: 0.7rem 1rem;
+  border: none;
+}
+.cash_amount{
+    display: none;
+}
+button {
+  width: 7rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #7373de;
+  margin-top: 1rem;
+  color: #fff;
+}
+table{
+  border: 2px solid #7373de;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+table tbody {
+  display: flex;
+}
+tr {
+  display: flex;
+  flex-direction: column;
+}
+td,
+th {
+  height: 29px;
+  padding: 4px;
+}
+th {
+  width: 7rem;
+}
